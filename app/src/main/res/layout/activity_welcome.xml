@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.tourism.welcome">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="CHOOSE TOURIST SPOT" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_marginTop="206dp"
+        android:scrollbarFadeDuration="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarFadeDuration="0"
+            android:orientation="vertical" >
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="#FF0101"
+                android:textColor="#FFFFFF"
+                android:text="AMER FORT" />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF0101"
+                android:layout_marginTop="6dp"
+                android:textColor="#FFFFFF"
+                android:text="Jantar Mantar" />
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="#FF0101"
+                android:textColor="#FFFFFF"
+                android:text="NAHARGARH FORT" />
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="#FF0101"
+                android:textColor="#FFFFFF"
+                android:text="HAWA MAHAL" />
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF0101"
+                android:layout_marginTop="6dp"
+                android:textColor="#FFFFFF"
+                android:text="JAIGHARH FORT" />
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF0101"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="6dp"
+                android:text="ALBERT HALL MUSEUM" />
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="#FF0101"
+                android:textColor="#FFFFFF"
+                android:text="JAL MAHAL "/>
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_marginTop="6dp"
+                android:layout_height="wrap_content"
+                android:background="#FF0101"
+                android:textColor="#FFFFFF"
+                android:text="CITY PALACE" />
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="#FF0101"
+                android:textColor="#FFFFFF"
+                android:text="BIRLA TEMPLE" />
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF0101"
+                android:layout_marginTop="6dp"
+                android:textColor="#FFFFFF"
+                android:text="RAMBHAGH PALACE" />
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="#FF0101"
+                android:textColor="#FFFFFF"
+                android:text="JAIPUR ZOO" />
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="#FF0101"
+                android:textColor="#FFFFFF"
+                android:text="RAM NIWAS GARDEN" />
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="#FF0101"
+                android:textColor="#FFFFFF"
+                android:text="RAJMANDIR CINEMA" />
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FF0101"
+                android:layout_marginTop="6dp"
+                android:textColor="#FFFFFF"
+                android:text="MUBARAK MAHAL" />
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="#FF0101"
+                android:textColor="#FFFFFF"
+                android:text="JAWAHAR KALA KENDRA" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/appBarLayout"
+        app:srcCompat="@drawable/orange" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/textView2"
+        app:srcCompat="@drawable/dropdown" />
+
+</RelativeLayout>

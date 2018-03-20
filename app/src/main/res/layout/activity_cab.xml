@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.tourism.cab">
+
+    <ImageButton
+        android:id="@+id/uber"
+        android:layout_width="165dp"
+        android:layout_height="135dp"
+android:background="#1d1d1f"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginTop="66dp"
+        app:srcCompat="@drawable/uber" />
+
+    <ImageButton
+        android:id="@+id/olaa"
+        android:layout_width="165dp"
+        android:layout_height="135dp"
+android:background=" #d9df23"
+        android:layout_alignBottom="@+id/uber"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView5"
+        app:srcCompat="@drawable/ola" />
+
+    <ImageView
+
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/book" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/olaa"
+        android:layout_alignStart="@+id/olaa"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:text="OLA"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/uber"
+        android:layout_below="@+id/uber"
+        android:layout_marginEnd="56dp"
+        android:layout_marginTop="31dp"
+        android:text="UBER"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+
+
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="HOME" />
+        <item
+
+
+            android:id="@+id/nav_apply"
+            android:icon="@drawable/busss"
+            android:title="BUS BOOKINGS" />
+        <item
+            android:id="@+id/nav_collab"
+
+            android:icon="@drawable/cab"
+
+            android:title="CABS BOOKINGS" />
+        <item
+            android:id="@+id/nav_comm"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="HOTEL BOOKINGS" />
+        <item
+            android:id="@+id/nav_gallery"
+
+      android:icon="@drawable/train"
+            android:title="TRAIN BOOKINGS" />
+    </group>
+
+
+    <item
+        android:title="Developed By-" >
+        <menu>
+            <item
+
+
+                android:title="NAMANDEEP SINGH"></item>
+       <item android:title="PANKAJ MAHARISHI"></item>
+        </menu>
+    </item>
+
+
+
+
+</menu>
